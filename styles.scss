@@ -181,13 +181,13 @@ header {
 
 		.images {
 			display: grid;
-			grid-template-columns: repeat(4, 23%);
+			grid-template-columns: repeat(4, 1fr);
 			grid-template-areas:
 				"a b c d"
 				"a e f f"
 				"a e f f";
 			grid-gap: 25px;
-			margin: 0 auto;
+			padding: 10px;
 
 			img {
 				width: 100%;
